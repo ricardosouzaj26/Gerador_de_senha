@@ -14,14 +14,22 @@ def gerador_senha(s):
         senha += digito
     return senha
 
+def main():
+    while True:
+        tamanho_senha = input("Insira a quantidade de dígitos desejada na senha: ")
 
+        if not tamanho_senha.isdigit():
+            print("Digite apenas números.")
+            continue
 
-tamanho_senha = input("Insira a quantide de dígitos desejada na senha: ")
-if tamanho_senha.isdigit():
-    tamanho_senha = int(tamanho_senha)
-    senha = gerador_senha(tamanho_senha)
-else:
-    print("Reinicie o programa e insira um valor numérico.")
-    quit()
+        tamanho_senha = int(tamanho_senha)
+        if tamanho_senha < 6:
+            print("Use pelo menos 6 caracteres.")
+            continue
 
-print(f"Senha gerada:\n{senha}")
+        senha = gerador_senha(tamanho_senha)
+        print(f"\nSenha gerada:\n{senha}")
+        break
+
+if __name__ == "__main__":
+    main()
