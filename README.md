@@ -19,10 +19,13 @@ Ele cria senhas fortes combinando números, letras maiúsculas e minúsculas e c
 ## Como usar
 
 1. Tenha o Python 3 instalado.
-2. Clone o repositório ou baixe os arquivos
+2. Clone o repositório
+```
+   git clone [https://github.com/ricardosouzaj26/Gerador_de_senha.git](https://github.com/ricardosouzaj26/Gerador_de_senha.git)
+```
 3. No terminal, entre na pasta do projeto:
 ```
-cd_password_generator.py
+cd password_generator
 ```
 Execute o jogo:
 ```
