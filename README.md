@@ -19,9 +19,11 @@ Ele cria senhas fortes combinando números, letras maiúsculas e minúsculas e c
 ## Como usar
 
 1. Tenha o Python 3 instalado.
-2. Salve o arquivo como:
-   ```bash
-   password_generator.py
-Execute no terminal:
-  ```bash
+2. Clone o repositório ou baixe os arquivos
+3. No terminal, entre na pasta do projeto:
+```
+cd_password_generator.py
+```
+Execute o jogo:
+```
 python password_generator.py
